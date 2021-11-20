@@ -1,0 +1,27 @@
+// COMMON :: START
+
+.copyright {
+	&__text {
+		font-size: 14px;
+		color: #ffffff;
+	}
+}
+
+.payment {
+	display: flex;
+	align-items: center;
+	height: 50px;
+
+	img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+		max-height: 100%;
+
+		&:not(:last-child) {
+			margin-right: 25px;
+		}
+	}
+}
+
+// COMMON :: END

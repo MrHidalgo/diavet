@@ -1,0 +1,14 @@
+// FOOTER :: START
+
+.footer {
+	background-color: #0081a6;
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 50px;
+	}
+}
+
+// FOOTER :: END
