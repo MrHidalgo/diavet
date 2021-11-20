@@ -8,6 +8,14 @@
 		align-items: center;
 		justify-content: space-between;
 		height: 50px;
+		@include adaptive(767) {
+			padding-top: 15px;
+			padding-bottom: 15px;
+			height: auto;
+			min-height: 50px;
+			flex-direction: column-reverse;
+			text-align: center;
+		}
 	}
 }
 
